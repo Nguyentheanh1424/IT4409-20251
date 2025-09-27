@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Đăng ký cơ bản</title>
+</head>
+<body>
+  <h1>Đăng ký tài khoản</h1>
+  <form>
+    <label for="fullname">Họ và tên:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Mật khẩu:</label><br>
+    <input type="password" id="password" name="password" required minlength="8"><br><br>
+
+    <label for="confirm">Xác nhận mật khẩu:</label><br>
+    <input type="password" id="confirm" name="confirm" required minlength="8"><br><br>
+
+    <label>
+      <input type="checkbox" name="agree" required>
+      Tôi đồng ý với điều khoản
+    </label><br><br>
+
+    <button type="submit">Đăng ký</button>
+  </form>
+</body>
+</html>

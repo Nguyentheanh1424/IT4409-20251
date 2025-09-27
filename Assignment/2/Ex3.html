@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Semantic HTML</title>
+</head>
+<body>
+  <!-- Header của trang -->
+  <header>
+    <div class="brand">
+      <h1>MySite</h1>
+      <p class="tagline">Tin tức & hướng dẫn.</p>
+    </div>
+
+    <!-- Thanh điều hướng chính -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#articles">Bài viết</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Nội dung chính -->
+  <main>
+    <!-- Một nhóm bài viết/section chính -->
+    <section id="featured" aria-labelledby="featured-title">
+      <h2 id="featured-title">Bài nổi bật</h2>
+
+      <!-- Article: mỗi bài viết độc lập -->
+      <article aria-labelledby="art1-title">
+        <header>
+          <h3 id="art1-title">Cách viết trang chuẩn cấu trúc Semantic HTML</h3>
+          <p><small>Đăng bởi <strong>Thế Anh</strong> — 24 Sept 2025</small></p>
+        </header>
+
+        <figure>
+          <img src="/1.png" alt="Minh họa semantic HTML" />
+          <figcaption>Ví dụ cấu trúc semantic.</figcaption>
+        </figure>
+        <footer>
+          <p>Tags: <a href="#">html</a>, <a href="#">accessibility</a></p>
+        </footer>
+      </article>
+
+      <article aria-labelledby="art2-title">
+        <header>
+          <h3 id="art2-title">SEO & Accessibility basics</h3>
+        </header>
+      </article>
+    </section>
+
+    <!-- Layout: main content + aside -->
+    <div role="group" aria-label="Layout chính">
+      <section id="articles">
+        <h2>Bài viết mới nhất</h2>
+        <ul>
+          <li><a href="#">Tiêu đề bài 1</a></li>
+          <li><a href="#">Tiêu đề bài 2</a></li>
+          <li><a href="#">Tiêu đề bài 3</a></li>
+        </ul>
+      </section>
+
+      <aside aria-label="Sidebar">
+        <h2>Sidebar</h2>
+        <p>Đăng ký nhận tin:</p>
+        <form action="/subscribe" method="post">
+          <label for="email">Email:</label><br>
+          <input id="email" name="email" type="email" required><br>
+          <button type="submit">Đăng ký</button>
+        </form>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">Về chúng tôi</h2>
+      <p>MySite cung cấp nội dung công nghệ, nhanh và thực tế.</p>
+    </section>
+
+    <address>
+      <strong>Liên hệ:</strong><br>
+      Email: <a href="ntheanh0104@gmail.com">ntheanh0104@gmail.com</a><br>
+      Địa chỉ: Hà Nội, Việt Nam
+    </address>
+
+    <small>&copy; 2025 MySite</small>
+  </footer>
+</body>
+</html>

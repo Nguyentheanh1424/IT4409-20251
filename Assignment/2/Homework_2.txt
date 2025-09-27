@@ -1,0 +1,17 @@
+Mô tả cách tạo trang
+
+    Tạo file Homework_2.html.
+
+    Trang có header hiển thị tiêu đề Thông Tin Lịch Học.
+
+    Thêm thông tin cá nhân: Họ tên, MSSV, ảnh chân dung.
+
+    Tạo một bảng thời khóa biểu bằng thẻ <table> gồm các cột: Tên môn học, Ngày giờ học, Phòng học, Giảng viên.
+
+    Dùng thẻ <caption> để đặt tiêu đề cho bảng.
+
+    Sau bảng, viết một đoạn văn mô tả cảm nhận về lịch học.
+
+    Cuối trang có footer hiển thị MSSV và ngày tạo.
+
+    Viết comment code.

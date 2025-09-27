@@ -1,0 +1,17 @@
+Mô tả cách tạo trang
+
+    Tạo file Homework_1.html.
+
+    Tạo header để hiển thị tiêu đề.
+
+    Thêm thông tin cá nhân: Họ tên, MSSV, ảnh chân dung.
+
+    Viết một đoạn văn mô tả sở thích cá nhân.
+
+    Tạo danh sách các môn học năm 2024 bằng thẻ <ol>.
+
+    Thêm một liên kết tới trang web yêu thích bằng thẻ <a>.
+
+    Cuối trang có footer hiển thị MSSV và ngày tạo.
+
+    Thêm comment code

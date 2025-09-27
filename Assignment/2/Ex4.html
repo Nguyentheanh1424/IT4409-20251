@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Đăng ký</title>
+</head>
+<body>
+  <h1>Tạo tài khoản mới</h1>
+  <p>Nhanh chóng và dễ dàng.</p>
+
+  <form>
+    <label for="lastname">Họ:</label><br>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+
+    <label for="firstname">Tên:</label><br>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label>Ngày sinh:</label><br>
+
+    <select name="day" required>
+      <option value="" disabled selected>Ngày</option>
+      <option>1</option>
+      <option>15</option>
+      <option selected>23</option>
+      <option>31</option>
+    </select>
+
+    <select name="month" required>
+      <option value="" disabled selected>Tháng</option>
+      <option>1</option>
+      <option>6</option>
+      <option selected>9</option>
+      <option>12</option>
+    </select>
+
+    <select name="year" required>
+      <option value="" disabled selected>Năm</option>
+      <option selected>2025</option>
+      <option>2024</option>
+      <option>2023</option>
+      <option>2022</option>
+      <option>2021</option>
+    </select>
+    <br><br>
+
+    <label>Giới tính:</label><br>
+    <input type="radio" id="female" name="gender" value="Nữ">
+    <label for="female">Nữ</label>
+
+    <input type="radio" id="male" name="gender" value="Nam">
+    <label for="male">Nam</label>
+
+    <input type="radio" id="custom" name="gender" value="Tùy chỉnh">
+    <label for="custom">Tùy chỉnh</label>
+    <br><br>
+
+    <label for="contact">Số di động hoặc email:</label><br>
+    <input type="text" id="contact" name="contact" required><br><br>
+
+    <label for="password">Mật khẩu mới:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <button type="submit">Đăng ký</button>
+  </form>
+
+  <p>Bạn đã có tài khoản ư? <a href="#">Đăng nhập</a></p>
+</body>
+</html>
